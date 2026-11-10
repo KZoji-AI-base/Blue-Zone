@@ -1,0 +1,40 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+*secret*
+*token*
+
+# Raw data exports (keep personal data out of git)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sqlite
+*.db
+exports/
+data/raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Python / Node
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# Claude local settings
+.claude/settings.local.json
